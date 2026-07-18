@@ -1,4 +1,4 @@
-export const PHONE_NUMBER = "5541998183385";
+export const PHONE_NUMBER = "41985261173";
 
 export const brazilianPackages = [
   { followers: "250", price: "9,90", bestSeller: false },

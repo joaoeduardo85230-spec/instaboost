@@ -36,7 +36,7 @@ export default function Footer() {
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Política de Privacidade</a></li>
               <li>
                 <a 
-                  href={`https://wa.me/${PHONE_NUMBER}?text=Olá, tenho uma dúvida.`}
+                  href={`https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent('Quero comprar seguidores.')}`}
                   onClick={() => trackWhatsAppClick()}
                   target="_blank"
                   rel="noopener noreferrer" 

@@ -10,7 +10,7 @@ interface Package {
 }
 
 const PackageCard = ({ pkg, type }: { key?: string | number, pkg: Package; type: 'brasileiros' | 'internacionais' }) => {
-  const message = `Olá! Quero comprar o pacote de ${pkg.followers} seguidores ${type} por R$ ${pkg.price}.`;
+  const message = 'Quero comprar seguidores.';
   const whatsappLink = `https://wa.me/${PHONE_NUMBER}?text=${encodeURIComponent(message)}`;
 
   return (
