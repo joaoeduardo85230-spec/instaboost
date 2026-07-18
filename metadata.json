@@ -1,0 +1,8 @@
+{
+  "name": "InstaBoost - Crescimento Premium",
+  "description": "Landing page de alta conversão para venda de seguidores do Instagram.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
